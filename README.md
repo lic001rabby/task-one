@@ -6,13 +6,13 @@ You will be building the provided UI today with the following functionalities -
 
 ## Functional Requirements
 
-- The table will be generated using your own github data by default. We will be using [Github's REST API](https://docs.github.com/rest) for this.
-- The "Repo Name" field is just that, the repo name.
-  -The [GO] button is a link to that repo which opens is a new window when clicked.
+- The "Repository 01 ..." field is the repo name.
+- The [GO] button is a link to that repo which opens is a new window when clicked.
 - User can put in a github userid in the text field.
-- Hitting the fetch button will populate the table with new data from that user id.
+- Hitting the fetch button will populate the table with new data from that user id using [Github's REST API.](https://docs.github.com/rest)
+- The table will be generated using your own github data by default (on first load).
 - The table will display no more than 5 records.
-- There cannot be any unnecessary whitespace.
+- There cannot be any unnecessary whitespace or unused data rows.
 
 ## Steps
 
@@ -32,3 +32,13 @@ You will be building the provided UI today with the following functionalities -
 You will be provided with all necessary color codes and images.
 
 Let's get started! Give this your best shot. We are not looking for what you 'cannot' do, we are looking at how you do what you do. No losers today!
+
+## The UI
+
+![UI](https://github.com/lic001rabby/task-one/raw/master/assets/images/task-ui.png "Provided in assets")
+
+**Color**
+
+`color: #5b378e; `
+
+**Font**: Euclid Flex Light
