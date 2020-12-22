@@ -5,11 +5,39 @@
         <title>Welcome to Jamroll!</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
+        <style>
+            body {
+              background-image: url('assets/images/cover.png'), url('assets/images/cover.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-position: right top;
+            }
+            
+            #example1 {
+                
+                background-position: right bottom, left top;
+                background-repeat: no-repeat, repeat;
+                padding: 15px;
+                }
+          </style>
         <meta name="theme-color" content="#fafafa" />
 
         <link rel="stylesheet/css" href="assets/css/app.css" />
+        
     </head>
+    <div id="example1"></div>
+    <h1 style="text-align:right;color:aliceblue;font-size: 140px;font-family: Euclid Flex Light;">Build</h1>
+    <h1 style="text-align:right;color:aliceblue;font-size: 140px;">Brands</h1>
+    <h1 style="text-align:right;color:aliceblue;font-size: 140px;">That</h1>
+    <h1 style="text-align:right;color:aliceblue;font-size: 140px;">Inspire.</h1>
+
+    <form action="/action_page.php">
+        <label for="fname">Github repository</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Repository UI</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
     <body>
 
         
