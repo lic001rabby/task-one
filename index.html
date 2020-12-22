@@ -1,19 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8" />
-        <title>Welcome to Jamroll!</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+   <head>
+      <meta charset="utf-8" />
+      <title>Welcome to Jamroll!</title>
+      <meta name="description" content="" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, user-scalable=no"
+      />
 
-        <meta name="theme-color" content="#fafafa" />
+      <meta name="theme-color" content="#fafafa" />
 
-        <link rel="stylesheet/css" href="assets/css/app.css" />
-    </head>
-    <body>
+      <!-- <link rel="stylesheet/css" href="assets/css/app.css" /> -->
+      <style type="text/css">
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         html body {
+            background-image: url("assets/images/cover.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            display: flex;
+            height: 100vh;
+         }
+         .form,
+         .moto,
+         .card
+         {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .form,
+         .moto
+         {
+            flex: 1;
+         }
+         .moto, .card {
+            flex-direction: column;
+         }
+         .moto h1 {
+            font-size: 4em;
+            text-align: center;
+            color: white;
+         }
+         .card {
+            background-color: white;
+            margin: 50px;
+            padding: 50px;
+            border-radius: 15px;
+         }
+         .card img {
+            width: 50%;
+         }
+         input {
+            width: 100%;
+            border-radius: 50px;
+            padding: 5px;
+         }
+         button{
+            background-color: #5b378e;
+            border-radius: 15px;
+            padding: 5px 30px;
+            color: white;
+         }
+         .input {
+            position: relative;
+         }
+         .input button {
+            position: absolute;
+            top: 0;
+            left: 90;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="form">
+         <div class="card">
+            <img src="./assets/images/full-logo.png" alt="" />
+            <div class="input">
+               <input type="text" placeholder="Github Userid"/>
+               <button>button</button>
+            </div>
+         </div>
+      </div>
 
-        
+      <div class="moto">
+         <h1>Build</h1>
+         <h1>Brands</h1>
+         <h1>That</h1>
+         <h1>Inspires.</h1>
+      </div>
 
-        
-    </body>
+      <script type="text/javascript"></script>
+   </body>
 </html>
+
